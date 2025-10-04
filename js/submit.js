@@ -1,4 +1,4 @@
-const backendUrl = 'http://localhost:2500';
+const backendUrl = 'http://127.0.0.1:5000';
 let form;
 
 document.addEventListener('DOMContentLoaded', () => {
