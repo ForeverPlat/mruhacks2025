@@ -19,5 +19,5 @@ window.onload = () => {
     if (currentPath !== '/recommendation.html')
         return;
 
-    getRecommendedRestaurants();
+    setRecommendedRestaurants();
 }

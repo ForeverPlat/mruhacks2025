@@ -3,148 +3,137 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-
+    <title>Restaurant Preferences</title>
     <link rel="stylesheet" href="userPreference.css" />
-  </head>
+</head>
   <body>
-    <form>
-        <h1> Set Your Resturants Preferences</h1>
+    <form class="form" id="restaurant-preferences">
+      <h1>Set Your Restaurant Preferences</h1>
       <fieldset>
-        <legend> Resturant Names:</legend>
-
-            <div class = "options-container">
-                <label>
-                    <input type="checkbox" name="resturant" value="SunsetSpoon"> SunsetSpoon
-                </label>
-
-                <label>
-                    <input type="checkbox" name="resturant" value="NoriAndNectar"> Nori & Nectar
-                </label>
-                <label>
-                    <input type="checkbox" name="resturant" value="LaPommeRouge"> La pomme Rouge
-                </label>
-
-                <label>
-                    <input type="checkbox" name="resturant" value="JapaneseFusion"> Japanese Fusion
-                </label>
-
-                <label>
-                    <input type="checkbox" name="resturant" value="Taqueria"> Taqueria
-                </label>
-                <label>
-                    <input type="checkbox" name="resturant" value="CurryPlains"> Curry Plains
-                </label>
-                <label>
-                    <input type="checkbox" name="resturant" value="MamasPierogi"> Mama's Pierogi
-                </label>
-                <label>
-                    <input type="checkbox" name="resturant" value="OliveAndEmber"> Olive & Ember
-                </label>
-
-                <label>
-                    <input type="checkbox" name="resturant" value="GreenTableVegan"> Green Table Vegan
-                </label>
-
-                <label>
-                    <input type="checkbox" name="resturant" value="TheSavOven"> The Sav Oven
-                </label>
-                
-                <label>
-                    <input type="checkbox" name="resturant" value="BambooAlley"> Bamboo Alley
-                </label>
-                <label>
-                    <input type="checkbox" name="resturant" value="SeoulStreetBites"> Seoul Street Bites
-                </label>
-                <label>
-                    <input type="checkbox" name="resturant" value="SavoryStack"> Savory Stack
-                </label>
-                <label>
-                    <input type="checkbox" name="resturant" value="SpiceHarbor"> Spice Harbor
-                </label>
-                <label>
-                    <input type="checkbox" name="resturant" value="BaoAndBrew"> Bao $ Brew
-                </label>
-            </div>
-
-        
+        <legend>Restaurant Names</legend>
+        <div class="options-container">
+          <label>
+            <input type="checkbox" name="restaurant[]" value="SunsetSpoon"> Sunset Spoon
+          </label>
+          <label>
+            <input type="checkbox" name="restaurant[]" value="NoriAndNectar"> Nori & Nectar
+          </label>
+          <label>
+            <input type="checkbox" name="restaurant[]" value="LaPommeRouge"> La Pomme Rouge
+          </label>
+          <label>
+            <input type="checkbox" name="restaurant[]" value="JapaneseFusion"> Japanese Fusion
+          </label>
+          <label>
+            <input type="checkbox" name="restaurant[]" value="Taqueria"> Taqueria
+          </label>
+          <label>
+            <input type="checkbox" name="restaurant[]" value="CurryPlains"> Curry Plains
+          </label>
+          <label>
+            <input type="checkbox" name="restaurant[]" value="MamasPierogi"> Mama's Pierogi
+          </label>
+          <label>
+            <input type="checkbox" name="restaurant[]" value="OliveAndEmber"> Olive & Ember
+          </label>
+          <label>
+            <input type="checkbox" name="restaurant[]" value="GreenTableVegan"> Green Table Vegan
+          </label>
+          <label>
+            <input type="checkbox" name="restaurant[]" value="TheSavOven"> The Sav Oven
+          </label>
+          <label>
+            <input type="checkbox" name="restaurant[]" value="BambooAlley"> Bamboo Alley
+          </label>
+          <label>
+            <input type="checkbox" name="restaurant[]" value="SeoulStreetBites"> Seoul Street Bites
+          </label>
+          <label>
+            <input type="checkbox" name="restaurant[]" value="SavoryStack"> Savory Stack
+          </label>
+          <label>
+            <input type="checkbox" name="restaurant[]" value="SpiceHarbor"> Spice Harbor
+          </label>
+          <label>
+            <input type="checkbox" name="restaurant[]" value="BaoAndBrew"> Bao & Brew
+          </label>
+        </div>
       </fieldset>
 
       <hr>
 
       <fieldset>
-        <legend>Price/Cost:</legend>
-
-            <input type="radio" name="Price/Cost" value="low" required>
-            <label>$ (Inexpensive)</label><br>
-
-            <input type="radio" name="Price/Cost" value="medium" required>
-            <label>$$ (Moderate)</label><br>
-
-            <input type="radio" name="Price/Cost" value="high" required>
-            <label>$$$ (Expensive)</label><br>
-
-            <input type="radio" name="Price/Cost" value="very_high" required>
-            <label>$$$$ (Very Expensive)</label>
-
+        <legend>Price Range</legend>
+        <div class="options-container">
+          <label>
+            <input type="radio" name="price" value="low" > $ (Inexpensive)
+          </label>
+          <label>
+            <input type="radio" name="price" value="medium"> $$ (Moderate)
+          </label>
+          <label>
+            <input type="radio" name="price" value="high"> $$$ (Expensive)
+          </label>
+          <label>
+            <input type="radio" name="price" value="very_high"> $$$$ (Very Expensive)
+          </label>
+        </div>
       </fieldset>
 
       <fieldset>
-        <legend> Cuisine Type</legend>
-            <p>Select all prefered cuisine</p>
-            
-            <div class = "options-container">
-                <label>
-                    <input type="checkbox" name="Cuisine" value="Italian"> Italian 
-                </label>
-
-                <label>
-                    <input type="checkbox" name="Cuisine" value="ContemporaryAmerican"> Contemporary American 
-                </label>
-                
-                <label>
-                    <input type="checkbox" name="Cuisine" value="JapaneseFusion"> Japanese Fusion 
-                </label>
-                <label>
-                    <input type="checkbox" name="Cuisine" value="FrenchBistro"> French Bistro  
-                </label>
-                <label>
-                    <input type="checkbox" name="Cuisine" value="Mexican"> Mexican 
-                </label>
-                <label>
-                    <input type="checkbox" name="Cuisine" value="Indian"> Indian 
-                </label>
-                <label>
-                    <input type="checkbox" name="Cuisine" value="EastEuropean"> East European 
-                </label>
-                <label>
-                    <input type="checkbox" name="Cuisine" value="Mediterranean"> Mediterranean 
-                </label>
-                <label>
-                    <input type="checkbox" name="Cuisine" value="Vegan"> Vegan 
-                </label>
-                <label>
-                    <input type="checkbox" name="Cuisine" value="Korean"> Korean 
-                </label>
-                <label>
-                    <input type="checkbox" name="Cuisine" value="BreakfastDiner"> Breakfast / Diner 
-                </label>
-                <label>
-                    <input type="checkbox" name="Cuisine" value="Caribbean"> Caribbean 
-                </label>
-                <label>
-                    <input type="checkbox" name="Cuisine" value="Asian"> Asian 
-                </label>
-                <label>
-                    <input type="checkbox" name="Cuisine" value="Scandinavian"> Scandinavian 
-                </label>
-            </div>
+        <legend>Cuisine Type</legend>
+        <p>Select all preferred cuisines</p>
+        <div class="options-container">
+          <label>
+            <input type="checkbox" name="cuisine[]" value="Italian"> Italian
+          </label>
+          <label>
+            <input type="checkbox" name="cuisine[]" value="ContemporaryAmerican"> Contemporary American
+          </label>
+          <label>
+            <input type="checkbox" name="cuisine[]" value="JapaneseFusion"> Japanese Fusion
+          </label>
+          <label>
+            <input type="checkbox" name="cuisine[]" value="FrenchBistro"> French Bistro
+          </label>
+          <label>
+            <input type="checkbox" name="cuisine[]" value="Mexican"> Mexican
+          </label>
+          <label>
+            <input type="checkbox" name="cuisine[]" value="Indian"> Indian
+          </label>
+          <label>
+            <input type="checkbox" name="cuisine[]" value="EastEuropean"> East European
+          </label>
+          <label>
+            <input type="checkbox" name="cuisine[]" value="Mediterranean"> Mediterranean
+          </label>
+          <label>
+            <input type="checkbox" name="cuisine[]" value="Vegan"> Vegan
+          </label>
+          <label>
+            <input type="checkbox" name="cuisine[]" value="Korean"> Korean
+          </label>
+          <label>
+            <input type="checkbox" name="cuisine[]" value="BreakfastDiner"> Breakfast/Diner
+          </label>
+          <label>
+            <input type="checkbox" name="cuisine[]" value="Caribbean"> Caribbean
+          </label>
+          <label>
+            <input type="checkbox" name="cuisine[]" value="Asian"> Asian
+          </label>
+          <label>
+            <input type="checkbox" name="cuisine[]" value="Scandinavian"> Scandinavian
+          </label>
+        </div>
       </fieldset>
 
       <hr>
 
-      <button type = "submit"> Save Preferences</button>
-      <button type = "reset"> Clear Preferences</button>
+      <button type="submit">Save Preferences</button>
+      <button type="reset">Clear Preferences</button>
     </form>
+  <script src="./js/submit.js"></script>
   </body>
 </html>

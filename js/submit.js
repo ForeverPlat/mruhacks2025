@@ -1,11 +1,37 @@
 const backendUrl = 'http://localhost:2500';
+let form;
+
+document.addEventListener('DOMContentLoaded', () => {
+    form = document.getElementById('restaurant-preferences');
+
+    if (form) {
+        form.addEventListener("submit", handleSubmit);
+    }
+})
 
 //  gets the form data and sends it to the backend
 const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const formData = new FormData(form);
-    const data = Object.fromEntries(formData.entries());
+    const selectedRestaurants = document.querySelectorAll('input[name="restaurant[]"]:checked');
+    const selectedPrice = document.querySelector('input[name="price"]:checked');
+    const selectedCuisine = document.querySelectorAll('input[name="cuisine[]"]:checked');
+
+    console.log(data);
+
+    const restaurantValues = Array.from(selectedRestaurants).map(checkbox => checkbox.value);
+    const priceValue = selectedPrice ?  selectedPrice.value : null;
+    const cuisineValues = Array.from(selectedCuisine).map(checkbox => checkbox.value);
+
+    const data = {
+        restaurants: restaurantValues,
+        price: priceValue,
+        cuisines: cuisineValues
+    }
+    
+    console.log(restaurantValues);
+    console.log(priceValue);
+    console.log(cuisineValues);
 
     try {
          const response = await fetch(`${backendUrl}/api/preference`, {
@@ -28,7 +54,3 @@ const handleSubmit = async (e) => {
     }
 }
 
-
-document.querySelector('form').addEventListener("submit", () => {
-    sendCustomerData();
-});
