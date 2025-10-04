@@ -5,7 +5,8 @@ app = Flask(__name__)
 @app.route("/")
 def home():
     # make sure your template file name matches exactly
-    return render_template("userPreference.html")
+    # return render_template("/userPreference.html")
+    return render_template('../userPreference.html')
 
 @app.route("/api/preference", methods=["POST"])
 def form_data():
