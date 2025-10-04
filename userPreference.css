@@ -28,3 +28,15 @@ h1{
     grid-template-columns: repeat(2,1fr);
     gap: 10px
 }
+
+button[type="submit"]{
+    padding: 10px 30px;
+
+
+}
+
+button[type="reset"]{
+    padding: 10px 30px;
+    
+
+}
