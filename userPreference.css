@@ -1,0 +1,42 @@
+
+
+legend {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+form label {
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    width: 50%;
+    text-align: left;
+}
+
+
+h1{
+    font-size: 50px;
+    align-content: center;
+
+    display: flex;
+    justify-content: center;
+}
+
+.options-container{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px
+}
+
+button[type="submit"]{
+    padding: 10px 30px;
+
+
+}
+
+button[type="reset"]{
+    padding: 10px 30px;
+    
+
+}
