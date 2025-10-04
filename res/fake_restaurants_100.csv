@@ -1,0 +1,101 @@
+id,name,stars_out_of_5,avg_cost_range,cuisine
+1,Oasis Tapas Bar,3.2,$$,Caribbean
+2,Bamboo Alley,3.5,$$$,Mediterranean
+3,Nori & Nectar,5.0,$$$,Mexican
+4,Seven Pines Tavern,4.1,$$$,BBQ
+5,Cinnamon & Clove,3.9,$$$$,French
+6,Savanna Grill,3.6,$$,Japanese
+7,Blue Ridge Eatery,2.6,$$$,Korean
+8,The Velvet Bean,2.4,$$$$,Fusion
+9,La Pomme Rouge,2.9,$$$$,Fusion
+10,Golden Leaf,1.9,$$$,Fusion
+11,Savanna Grill,4.3,$$$$,Indian
+12,Frost & Flame,1.7,$$$,Middle Eastern
+13,Ocean Pearl,3.3,$$$,Breakfast / Diner
+14,Mama's Pierogi,2.6,$$$$,Indian
+15,Limewood Kitchen,3.0,$$$,Breakfast / Diner
+16,La Pomme Rouge,3.2,$,Greek
+17,Nordic Nook,1.8,$$$$,Mexican
+18,Firefly Noodles,3.8,$$$$,BBQ
+19,Lemon Grass Lane,2.6,$$$$,Mediterranean
+20,Cedar & Sage,3.3,$,Italian
+21,Savanna Grill,4.7,$$$,Vegan
+22,Echo Noodle House,4.2,$$$,Greek
+23,Urban Grain,4.3,$$$,Seafood
+24,Mama's Pierogi,2.9,$,Greek
+25,Savanna Grill,4.9,$$$,Seafood
+26,Savanna Grill,3.2,$$,French
+27,Driftwood Bar,2.7,$,Fusion
+28,Harvest Moon,2.1,$$,Chinese
+29,Bayview Smokehouse,1.9,$,Breakfast / Diner
+30,Seven Pines Tavern,2.5,$,Caribbean
+31,Lotus Flame,4.8,$$$,Indian
+32,Garden Hearth,2.6,$$$$,Japanese
+33,Bamboo Alley,4.5,$$$$,Korean
+34,Rustic Root,2.0,$$$,Greek
+35,Timber & Thyme,2.8,$$,Fusion
+36,Oasis Tapas Bar,3.3,$$$$,Seafood
+37,Driftwood Bar,4.4,$,Caribbean
+38,Sunset Spoon,4.6,$,French
+39,The Loft Grill,3.4,$,Italian
+40,Aurora Eatery,4.5,$$,Greek
+41,Mountain Mist Café,2.9,$$$,BBQ
+42,Seven Pines Tavern,2.9,$$$,Italian
+43,Eclipse Sushi,2.7,$,Street Food
+44,Limewood Kitchen,2.4,$$$,Korean
+45,Bao & Brew,2.7,$$$$,Korean
+46,Coconut Grove,2.0,$$,Thai
+47,Frost & Flame,2.4,$$$,Japanese
+48,Golden Yak,4.2,$$$,Indian
+49,Roast & Coast,2.0,$$,Caribbean
+50,The Loft Grill,3.9,$$$$,Mexican
+51,Nordic Nook,4.7,$,Greek
+52,Basil Street Café,4.2,$,Mediterranean
+53,Emerald Table,1.8,$$$,French
+54,The Gilded Goose,1.6,$$$,Chinese
+55,Spice Harbor,4.7,$$,Korean
+56,Crimson Fork,2.7,$$,Indian
+57,Brickhouse Tacos,3.7,$$$,Fusion
+58,Cinnamon & Clove,2.0,$$$$,French
+59,Peppercorn Café,2.6,$$$$,Greek
+60,Coconut Grove,2.1,$$,Street Food
+61,Frost & Flame,3.3,$,Japanese
+62,Amber Ember,3.4,$$,Scandinavian
+63,Emerald Table,3.8,$$,Korean
+64,Truffle Tree,4.3,$$$$,American
+65,Panthera Lounge,2.5,$,Indian
+66,Seaside Grill,2.3,$$$,Seafood
+67,Cedar & Sage,4.6,$,BBQ
+68,Blue Fin Bistro,4.6,$$,Greek
+69,Sakura House,2.2,$$,Italian
+70,Saffron Sky,3.8,$$,Scandinavian
+71,Midnight Curry,2.6,$,Korean
+72,Smokehouse 52,2.2,$$,Mediterranean
+73,Cherry Blossom Bistro,4.9,$,Greek
+74,Wharfside Grill,3.5,$$$,Korean
+75,Echo Noodle House,2.8,$,French
+76,Firefly Noodles,3.8,$$,Thai
+77,Amber Ember,3.3,$,Middle Eastern
+78,Café Mariposa,4.1,$,Street Food
+79,Crimson Fork,2.2,$$$$,Indian
+80,The Copper Lantern,2.1,$$$$,Korean
+81,Seven Pines Tavern,4.1,$$$,Italian
+82,Silver Chopsticks,4.3,$,Breakfast / Diner
+83,Roast & Coast,2.7,$,French
+84,The Copper Lantern,1.9,$$$,Middle Eastern
+85,Nori & Nectar,4.8,$$$,Breakfast / Diner
+86,Orchid Garden,2.7,$$$,Middle Eastern
+87,The Coal Oven,1.9,$$$$,Korean
+88,Sakura House,1.5,$$,Mediterranean
+89,Arctic Fox Diner,4.1,$,French
+90,Wok Republic,2.5,$$,Korean
+91,Silver Chopsticks,4.6,$$$$,Scandinavian
+92,Taqueria Sol,3.7,$$$$,Korean
+93,Bao & Brew,3.3,$$$,Indian
+94,The Copper Lantern,4.5,$$$,Italian
+95,Olive & Ember,4.4,$$$$,Korean
+96,Tandoor Tales,2.2,$$,Mediterranean
+97,Seoul Street Bites,4.6,$$,Vegan
+98,The Loft Grill,4.7,$$$$,Fusion
+99,Oasis Tapas Bar,3.6,$$$$,Middle Eastern
+100,Garden Hearth,3.1,$$$$,Vegan
