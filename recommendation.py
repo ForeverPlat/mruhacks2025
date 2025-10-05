@@ -10,6 +10,8 @@ def get_recommendations(cost, cuisine):
         if df_drop.loc[i, "avg_cost"] != cost or df_drop.loc[i, "cuisine"] != cuisine:
             df_drop.drop(i, inplace=True)
     
+    df_drop.sort_values('stars', ascending=False, inplace=True)
+    
     reclist = []
     
     for z in range(len(df_drop['name'])):
@@ -20,6 +22,10 @@ def get_recommendations(cost, cuisine):
             else:
                 row.append(df_drop.iloc[z, x])
         reclist.append(row)
+     
+    while len(reclist) > 10:
+        reclist.pop(-1)
+
     return reclist
 
 def get_recommendation_from_name(name):
@@ -35,7 +41,7 @@ def get_recommendation_from_name(name):
          count += 1
      return temp
 
-# test = get_recommendations('$$', 'Caribbean')    
+# test = get_recommendations('$', 'BBQ')    
 # print(test)
 # test2 = get_recommendation_from_name('Oasis Tapas Bar')
 # print(test2)
