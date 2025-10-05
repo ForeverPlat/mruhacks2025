@@ -34,9 +34,9 @@ const handleSubmit = async (e) => {
         cuisines: cuisineValues
     }
     
-    console.log(restaurantValues);
-    console.log(priceValue);
-    console.log(cuisineValues);
+    // console.log(restaurantValues);
+    // console.log(priceValue);
+    // console.log(cuisineValues);
 
     try {
          const response = await fetch(`${backendUrl}/api/preference`, {
@@ -52,7 +52,7 @@ const handleSubmit = async (e) => {
         }
 
         const result = await response.json();
-        console.log('API Response:', result);
+        // console.log('API Response:', result);
 
         window.location.href='/recommendation';
 

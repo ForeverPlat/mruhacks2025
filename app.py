@@ -27,12 +27,10 @@ def form_data():
     if missing:
         return jsonify({"error": "Missing required fields.", "missing": sorted(missing)}), 400
 
-    restaurants = data["restaurants"]  # e.g., list or string—your choice
+    restaurants = data["restaurants"]
     cuisine = data["cuisines"]
     price = data["price"]
 
-    print(restaurants)
-    print(price)
 
     with open("res/preference.txt", "w") as f:
         if (len(restaurants) == 0):
@@ -40,29 +38,20 @@ def form_data():
 
         for i in range(len(restaurants)):
             if (i == len(restaurants) - 1):
-                print("i")  
-                print(i)
                 f.write(restaurants[i]+"\n")
-                print("i")  
-                print(restaurants[i])
+                # print(restaurants[i])
             else:
                 f.write(restaurants[i]+ ",")
-                print(i)
-                print(restaurants[i])
+                # print(restaurants[i])
 
         f.write(price + "\n")
 
         for i in range(len(cuisine)):
             if (i == len(cuisine) - 1):
-                print("c")  
-                print(i)
                 f.write(cuisine[i]+"\n")
-                print(cuisine[i])
             else:
                 f.write(cuisine[i]+ ",")
-                print("c")  
-                print(i)
-                print(cuisine[i])
+                # print(cuisine[i])
         
 
     # Do something with the data
@@ -74,6 +63,7 @@ def form_data():
         "ok": True,
         "received": {"cuisine": cuisine, "price": price, "restaurants": restaurants}
     }), 200
+    
     
 
 
@@ -104,31 +94,31 @@ def get_recommendations_route():
             elif index == 2:
                 cuisines = line.strip().split(',')
 
+    # print("res")
+    # print(restaurants)
+
+    # print("cus")
+    # print(cuisines)
     
     if (len(cuisines) == 0 and price != "" and restaurants[0] == ''):
         return jsonify("error: Missing preferences."), 400
     
     # if no restaurants is selected
     if (restaurants[0] == ''):
-        for c in cuisines:
-            print(c)
+        print("selected")
         recommendations = get_recommendations(price, cuisines)
 
         return jsonify({
             "ok": True,
             "data": recommendations
         })
-        # get recommendation
-        # return the data
-    
-    # this is when a restaurant is selected
-    if (restaurants[0] != ''):
+    else:
         recommendations = []
         for restaurant in restaurants:
             recommendation = get_recommendation_from_name(restaurant)
-            recommendations.append(recommendation)
+            recommendations.extend(recommendation)
             
-        print(recommendations)    
+        # print(recommendations)    
         return jsonify({
             "ok": True,
             "data": recommendations

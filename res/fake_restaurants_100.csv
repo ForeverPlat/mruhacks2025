@@ -1,4 +1,4 @@
-id,name,stars_out_of_5,avg_cost_range,cuisine
+id,name,stars,avg_cost,cuisine
 1,Oasis Tapas Bar,3.2,$$,Caribbean
 2,Bamboo Alley,3.5,$$$,Mediterranean
 3,Nori & Nectar,5.0,$$$,Mexican
