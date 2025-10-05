@@ -7,17 +7,12 @@ const setRecommendedRestaurants = async () => {
         const result = await res.json();
 
         recommendedRestaurants = result.data;
+        console.log(recommendedRestaurants);
+        
 
     } catch (error) {
         console.error(error)
     }
 }
 
-window.onload = () => {
-    const currentPath = window.location.pathname;
-
-    if (currentPath !== '/recommendation.html')
-        return;
-
-    setRecommendedRestaurants();
-}
+document.addEventListener('DOMContentLoaded', () => setRecommendedRestaurants());

@@ -40,6 +40,11 @@ def form_data():
         "received": {"cuisine": cuisine, "price": price, "restaurants": restaurants}
     }), 200
     
+
+@app.route("/recommendation")
+def show_recommendations():
+    return render_template('recommendation.html')
+
 @app.route("/api/recommendation", methods=["GET"])
 def get_recommendations():
     data = request.get_json(silent=True)
@@ -58,6 +63,7 @@ def get_recommendations():
         })
         # get recommendation
         # return the data
+    
         
     if (len(restaurants) != 0):
         recommendations = get_recommendation_from_name()
@@ -67,9 +73,8 @@ def get_recommendations():
         })
         # get_recommendations
         # return the data
-    
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(port=5500, debug=True)
 
     
