@@ -1,5 +1,6 @@
-const backendUrl = 'http://localhost:5000';
+const backendUrl = 'http://localhost:5500';
 let form;
+// can add dietary eventually
 
 document.addEventListener('DOMContentLoaded', () => {
     form = document.getElementById('restaurant-preferences');
@@ -53,8 +54,8 @@ const handleSubmit = async (e) => {
         const result = await response.json();
         console.log('API Response:', result);
 
-        
-       
+        window.location.href='/recommendation';
+
     } catch (error) {
         console.error('Error sending data to API:', error)
     }

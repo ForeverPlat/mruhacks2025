@@ -7,7 +7,7 @@ df_drop = df.drop(columns=['id'])
 def get_recommendations(cost, cuisine):
 
     for i in df_drop.index:
-        if df_drop.loc[i, "avg_cost"] != cost or df_drop.loc[i, "cuisine"] != cuisine:
+        if df_drop.loc[i, "avg_cost"] != cost or df_drop.loc[i, "cuisine"] not in cuisine:
             df_drop.drop(i, inplace=True)
     
     df_drop.sort_values('stars', ascending=False, inplace=True)
@@ -29,19 +29,20 @@ def get_recommendations(cost, cuisine):
     return reclist
 
 def get_recommendation_from_name(name):
-     for i in df_drop.index:
-         if df_drop.loc[i, "name"] == name:
-             temp = get_recommendations(df_drop.loc[i, "avg_cost"], df_drop.loc[i, "cuisine"])
-             break
-     count = 0
-     for x in temp:
-         if temp[count][0] == name:
-             temp.pop(count)
-             break
-         count += 1
-     return temp
+    temp = []
+    for i in df_drop.index:
+        if df_drop.loc[i, "name"] in name:
+            temp = get_recommendations(df_drop.loc[i, "avg_cost"], df_drop.loc[i, "cuisine"])
+            break
+    count = 0
+    for x in temp:
+        if temp[count][0] == name:
+            temp.pop(count)
+            break
+        count += 1
+    return temp
 
-# test = get_recommendations('$', 'BBQ')    
+# test = get_recommendations('$', ['BBQ', 'Indian'])    
 # print(test)
 # test2 = get_recommendation_from_name('Oasis Tapas Bar')
 # print(test2)
