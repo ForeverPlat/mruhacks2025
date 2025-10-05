@@ -1,5 +1,6 @@
-const backendUrl = 'http://localhost:5000';
+const backendUrl = 'http://localhost:5500';
 let form;
+// can add dietary eventually
 
 document.addEventListener('DOMContentLoaded', () => {
     form = document.getElementById('restaurant-preferences');
@@ -33,9 +34,9 @@ const handleSubmit = async (e) => {
         cuisines: cuisineValues
     }
     
-    console.log(restaurantValues);
-    console.log(priceValue);
-    console.log(cuisineValues);
+    // console.log(restaurantValues);
+    // console.log(priceValue);
+    // console.log(cuisineValues);
 
     try {
          const response = await fetch(`${backendUrl}/api/preference`, {
@@ -53,7 +54,7 @@ const handleSubmit = async (e) => {
         const result = await response.json();
         console.log('API Response:', result);
 
-          
+        
        
     } catch (error) {
         console.error('Error sending data to API:', error)

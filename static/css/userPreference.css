@@ -1,51 +1,161 @@
+/* ../static/css/userPreference.css */
+
+/* Base styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  margin: 0;
+}
+
+/* Header styling */
+.header {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  background-color: #1e3a8a; /* Vibrant orange for a catchy look */
+  padding:2rem 4rem;
+  color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.header h1 {
+  font-size: 2rem;
+  margin: 0;
+  font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Form container */
 .form {
   max-width: 600px;
   margin: 2rem auto;
-  padding: 1rem;
-  border: 1px solid #ccc;
-  border-radius: 8px;
+  padding: 1.5rem;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
-h1 {
+
+/* Form heading */
+.form h2 {
   text-align: center;
-  color: #333;
+  color: #2c3e50;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
 }
+
+/* Fieldset styling */
 fieldset {
   margin: 1rem 0;
   padding: 1rem;
   border: 1px solid #ddd;
-  border-radius: 4px;
+  border-radius: 6px;
+  background-color: #fafafa;
 }
+
+/* Legend styling */
 legend {
   font-weight: bold;
-  color: #444;
+  color: #2c3e50;
+  font-size: 1.1rem;
 }
+
+/* Instruction paragraph */
+p {
+  color: #555;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Options container */
 .options-container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
   gap: 0.5rem;
 }
+
+/* Label and input styling */
 label {
-  display: block;
-  margin: 0.5rem 0;
-  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  font-size: 0.95rem;
+  color: #333;
 }
+
+label:hover {
+  background-color: #e6f0fa;
+  border-radius: 4px;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  margin-right: 0.5rem;
+  accent-color: #3498db; /* Blue for checked inputs */
+}
+
+/* Error message styling */
+#cuisine-error {
+  font-size: 0.85rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Button styling */
 button {
-  padding: 0.5rem 1rem;
+  padding: 0.6rem 1.2rem;
   margin: 0.5rem;
   border: none;
-  border-radius: 4px;
+  border-radius: 5px;
   cursor: pointer;
-  background-color: #007bff;
-  color: white;
+  font-weight: bold;
+  color: #fff;
 }
+
+button[type="submit"] {
+  background-color: #3498db;
+}
+
 button[type="reset"] {
-  background-color: #dc3545;
+  background-color: #e74c3c;
 }
+
 button:hover {
-  opacity: 0.9;
+  opacity: 0.8;
 }
+
+/* Horizontal rule */
 hr {
   margin: 1.5rem 0;
   border: 0;
-  border-top: 1px solid #eee;
+  border-top: 1px solid #ddd;
+}
+
+/* Responsive design */
+@media (max-width: 500px) {
+  .header h1 {
+    font-size: 1.5rem;
+  }
+
+  .form {
+    margin: 1rem;
+    padding: 1rem;
+  }
+
+  .form h2 {
+    font-size: 1.5rem;
+  }
+
+  .options-container {
+    grid-template-columns: 1fr;
+  }
+
+  button {
+    width: 100%;
+    margin: 0.5rem 0;
+  }
 }

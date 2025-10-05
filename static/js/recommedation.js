@@ -1,4 +1,5 @@
 let recommendedRestaurants = []; // list of restaurant objects
+const backendUrl = 'http://localhost:5500';
 
 const setRecommendedRestaurants = async () => {
     try {
@@ -7,17 +8,35 @@ const setRecommendedRestaurants = async () => {
         const result = await res.json();
 
         recommendedRestaurants = result.data;
+        // console.log(recommendedRestaurants);
 
+        const main = document.getElementById("rec-main");
+        recommendedRestaurants.forEach((restaurant) => {
+            console.log(restaurant);
+            
+            main.innerHTML += `
+            <div class="restaurant-card">
+                <div class="restaurant-image">Placeholder Image</div>
+                <div class="restaurant-info">
+                    <h2 class="restaurant-name">${restaurant[0]}</h2>
+                    <p class="restaurant-details rating">${restaurant[1]} ★</p>
+                    <p class="restaurant-details">Price: ${restaurant[2]}</p>
+                    <p class="restaurant-details">Cuisine: ${restaurant[3]}</p>
+                </div>
+            </div>`
+    })
+        
     } catch (error) {
         console.error(error)
     }
+
+    console.log(recommendedRestaurants);
 }
 
-window.onload = () => {
-    const currentPath = window.location.pathname;
-
-    if (currentPath !== '/recommendation.html')
-        return;
-
+document.addEventListener('DOMContentLoaded', () => {
     setRecommendedRestaurants();
-}
+});
+
+document.getElementById("pref-btn").addEventListener('click', () => window.location.href='/');
+
+
