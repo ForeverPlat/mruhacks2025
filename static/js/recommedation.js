@@ -2,7 +2,7 @@ let recommendedRestaurants = []; // list of restaurant objects
 
 const setRecommendedRestaurants = async () => {
     try {
-        const res = await fetch(`${backendUrl}/api/restaurants/recommendation`)
+        const res = await fetch(`${backendUrl}/api/recommendation`)
 
         const result = await res.json();
 

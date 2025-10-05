@@ -1,4 +1,4 @@
-const backendUrl = 'http://127.0.0.1:5000';
+const backendUrl = 'http://localhost:5000';
 let form;
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -17,11 +17,15 @@ const handleSubmit = async (e) => {
     const selectedPrice = document.querySelector('input[name="price"]:checked');
     const selectedCuisine = document.querySelectorAll('input[name="cuisine[]"]:checked');
 
-    console.log(data);
-
     const restaurantValues = Array.from(selectedRestaurants).map(checkbox => checkbox.value);
     const priceValue = selectedPrice ?  selectedPrice.value : null;
     const cuisineValues = Array.from(selectedCuisine).map(checkbox => checkbox.value);
+
+    if (cuisineValues.length === 0) {
+        const errorMsg = document.querySelector('#cuisine-error');
+        errorMsg.style.display = 'block';
+        return;
+    }
 
     const data = {
         restaurants: restaurantValues,
@@ -48,6 +52,8 @@ const handleSubmit = async (e) => {
 
         const result = await response.json();
         console.log('API Response:', result);
+
+        
        
     } catch (error) {
         console.error('Error sending data to API:', error)
