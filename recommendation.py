@@ -44,7 +44,7 @@ def get_recommendation_from_name(name):
 
 # test = get_recommendations('$', ['BBQ', 'Indian'])    
 # print(test)
-# test2 = get_recommendation_from_name('Oasis Tapas Bar')
+# test2 = get_recommendation_from_name('Bao & Brew')
 # print(test2)
 # testfloat = float(test[0][1])
 # print(testfloat)
