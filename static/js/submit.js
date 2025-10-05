@@ -53,7 +53,7 @@ const handleSubmit = async (e) => {
         const result = await response.json();
         console.log('API Response:', result);
 
-        
+          
        
     } catch (error) {
         console.error('Error sending data to API:', error)
