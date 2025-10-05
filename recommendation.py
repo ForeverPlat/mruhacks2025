@@ -1,13 +1,13 @@
 import pandas as pd
 
-df = pd.read_csv('./res/fake_restaurants_100.csv')
+df = pd.read_csv('./res/fake_restaurants_1000_expanded.csv')
 
 df_drop = df.drop(columns=['id'])
 
 def get_recommendations(cost, cuisine):
 
     for i in df_drop.index:
-        if df_drop.loc[i, "avg_cost_range"] != cost or df_drop.loc[i, "cuisine"] != cuisine:
+        if df_drop.loc[i, "avg_cost"] != cost or df_drop.loc[i, "cuisine"] != cuisine:
             df_drop.drop(i, inplace=True)
     
     reclist = []
@@ -25,7 +25,7 @@ def get_recommendations(cost, cuisine):
 def get_recommendation_from_name(name):
      for i in df_drop.index:
          if df_drop.loc[i, "name"] == name:
-             temp = get_recommendations(df_drop.loc[i, "avg_cost_range"], df_drop.loc[i, "cuisine"])
+             temp = get_recommendations(df_drop.loc[i, "avg_cost"], df_drop.loc[i, "cuisine"])
              break
      count = 0
      for x in temp:
