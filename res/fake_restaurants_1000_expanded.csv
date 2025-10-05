@@ -1,0 +1,966 @@
+id,name,stars,avg_cost,cuisine
+1,Oasis Tapas Bar,3.2,$$,Caribbean
+2,Bamboo Alley,3.5,$$$,Mediterranean
+3,Nori & Nectar,5.0,$$$,Mexican
+4,Seven Pines Tavern,4.1,$$$,BBQ
+5,Cinnamon & Clove,3.9,$$$$,French
+6,Savanna Grill,3.6,$$,Japanese
+7,Blue Ridge Eatery,2.6,$$$,Korean
+8,The Velvet Bean,2.4,$$$$,Fusion
+9,La Pomme Rouge,2.9,$$$$,Fusion
+10,Golden Leaf,1.9,$$$,Fusion
+11,Frost & Flame,1.7,$$$,Middle Eastern
+12,Ocean Pearl,3.3,$$$,Breakfast / Diner
+13,Mama's Pierogi,2.6,$$$$,Indian
+14,Limewood Kitchen,3.0,$$$,Breakfast / Diner
+15,Nordic Nook,1.8,$$$$,Mexican
+16,Firefly Noodles,3.8,$$$$,BBQ
+17,Lemon Grass Lane,2.6,$$$$,Mediterranean
+18,Cedar & Sage,3.3,$,Italian
+19,Echo Noodle House,4.2,$$$,Greek
+20,Urban Grain,4.3,$$$,Seafood
+21,Driftwood Bar,2.7,$,Fusion
+22,Harvest Moon,2.1,$$,Chinese
+23,Bayview Smokehouse,1.9,$,Breakfast / Diner
+24,Lotus Flame,4.8,$$$,Indian
+25,Garden Hearth,2.6,$$$$,Japanese
+26,Rustic Root,2.0,$$$,Greek
+27,Timber & Thyme,2.8,$$,Fusion
+28,Sunset Spoon,4.6,$,French
+29,The Loft Grill,3.4,$,Italian
+30,Aurora Eatery,4.5,$$,Greek
+31,Mountain Mist Café,2.9,$$$,BBQ
+32,Eclipse Sushi,2.7,$,Street Food
+33,Bao & Brew,2.7,$$$$,Korean
+34,Coconut Grove,2.0,$$,Thai
+35,Golden Yak,4.2,$$$,Indian
+36,Roast & Coast,2.0,$$,Caribbean
+37,Basil Street Café,4.2,$,Mediterranean
+38,Emerald Table,1.8,$$$,French
+39,The Gilded Goose,1.6,$$$,Chinese
+40,Spice Harbor,4.7,$$,Korean
+41,Crimson Fork,2.7,$$,Indian
+42,Brickhouse Tacos,3.7,$$$,Fusion
+43,Peppercorn Café,2.6,$$$$,Greek
+44,Amber Ember,3.4,$$,Scandinavian
+45,Truffle Tree,4.3,$$$$,American
+46,Panthera Lounge,2.5,$,Indian
+47,Seaside Grill,2.3,$$$,Seafood
+48,Blue Fin Bistro,4.6,$$,Greek
+49,Sakura House,2.2,$$,Italian
+50,Saffron Sky,3.8,$$,Scandinavian
+51,Midnight Curry,2.6,$,Korean
+52,Smokehouse 52,2.2,$$,Mediterranean
+53,Cherry Blossom Bistro,4.9,$,Greek
+54,Wharfside Grill,3.5,$$$,Korean
+55,Café Mariposa,4.1,$,Street Food
+56,The Copper Lantern,2.1,$$$$,Korean
+57,Silver Chopsticks,4.3,$,Breakfast / Diner
+58,Orchid Garden,2.7,$$$,Middle Eastern
+59,The Coal Oven,1.9,$$$$,Korean
+60,Arctic Fox Diner,4.1,$,French
+61,Wok Republic,2.5,$$,Korean
+62,Taqueria Sol,3.7,$$$$,Korean
+63,Olive & Ember,4.4,$$$$,Korean
+64,Tandoor Tales,2.2,$$,Mediterranean
+65,Seoul Street Bites,4.6,$$,Vegan
+66,Copper Works,4.6,$,Mexican
+67,Mama's Garden,3.9,$,Spanish
+68,Sweet Bistro,3.7,$$,Greek
+69,El Garden,4.3,$,BBQ
+70,Casa Station Kitchenette,4.3,$,Fusion
+71,La Bistro Kitchenette,4.6,$$,Indian
+72,Wild Table Express,3.6,$$$,Brazilian
+73,Bistro Works,3.5,$,Fusion
+74,Silver Bakery,3.6,$$$$,Thai
+75,Casa House,3.7,$,Spanish
+76,Harbor Bakery,4.1,$,Japanese
+77,Sweet Palace,3.6,$,Vegan
+78,Spicy Eatery,3.5,$$,Seafood
+79,Lucky Cafe,3.9,$,Japanese
+80,Market Club Works,3.5,$$,Mexican
+81,Bistro Hub,4.4,$$,Lebanese
+82,Sweet Table,3.9,$,Lebanese
+83,Savory Table,4.1,$,Chinese
+84,Casa Bistro,3.5,$,Thai
+85,North Bar,3.4,$,Indian
+86,Golden Kitchen,3.4,$,Japanese
+87,Oak Room Delight,4.6,$,American
+88,Grand Eatery,3.6,$$,Mediterranean
+89,Bistro Corner,4.2,$,Korean
+90,South Loft,3.7,$$$$,Mexican
+91,Mama's Works,3.3,$$$,Mediterranean
+92,Mama's Spot,4.5,$$$,BBQ
+93,Fusion Grill,3.1,$,Greek
+94,Happy Bistro,4.3,$,American
+95,Blue Eatery,3.9,$$,French
+96,Bistro Diner,4.1,$$,Mediterranean
+97,El Cafe,4.1,$,BBQ
+98,South Bistro Express,3.4,$$$,American
+99,Red Station,4.1,$$,BBQ
+100,North Works,3.6,$,BBQ
+101,Golden House,4.4,$$$,Chinese
+102,Spicy Kitchen Delight,4.6,$,Fusion
+103,Urban Diner,4.2,$$,Mexican
+104,Bistro House,3.5,$$,Chinese
+105,La Loft Express,4.9,$,Seafood
+106,Royal Bistro,2.7,$$$,Mediterranean
+107,La Bistro,3.3,$,Mediterranean
+108,Oak Corner Express,3.7,$$$,BBQ
+109,Grand Kitchen,4.3,$$,Indian
+110,Harbor Garden,3.5,$,Brazilian
+111,Lucky Room,3.7,$$,Indian
+112,North Room,3.8,$$,Vegan
+113,Lucky Diner,4.0,$$,Vietnamese
+114,Spicy Club,4.2,$$$,Japanese
+115,Urban Works Express,3.4,$,Brazilian
+116,Red Tavern,4.3,$$,Spanish
+117,Market Spot Works,3.9,$$$,Korean
+118,Oak Hub,3.3,$,Chinese
+119,Bistro Loft,3.0,$$$,Chinese
+120,Silver Cafe,3.7,$,Spanish
+121,Fusion Cantina,3.5,$$,Indian
+122,Oak Eatery,3.8,$$$,Spanish
+123,Happy Garden,3.6,$$,Turkish
+124,Red Club,4.0,$$$,Vegan
+125,Lucky Club,4.3,$$,Thai
+126,Wild Bar Delight,4.2,$$,Korean
+127,Red Diner,3.7,$,Korean
+128,Wild Grill,4.9,$$$,Vegan
+129,Market Table,4.1,$,Greek
+130,Copper Room,3.7,$$,Mediterranean
+131,Silver Grill,4.2,$$,Thai
+132,Green Club,3.8,$$,BBQ
+133,Red Hub,3.8,$$,Vietnamese
+134,Harbor Station,4.5,$,Spanish
+135,Golden Garden,4.6,$$,Japanese
+136,Red Cafe,3.6,$,Japanese
+137,Sweet House Works,3.0,$$$,Chinese
+138,South Table,3.6,$$,Greek
+139,Fusion Room,3.5,$,Korean
+140,Golden Station,3.9,$,Vietnamese
+141,The Room,3.8,$,American
+142,South Hub Works,3.2,$$,Brazilian
+143,El Kitchen Express,3.8,$$,French
+144,Grand Garden,4.0,$$$,Japanese
+145,Happy Works,3.6,$,Spanish
+146,South House,4.1,$$,Turkish
+147,Urban Lounge,3.2,$$,Thai
+148,Wild Porch,4.3,$,Greek
+149,Iron Eatery,4.8,$,Chinese
+150,Savory House,4.1,$$,Spanish
+151,Lucky Room & Co.,3.9,$$,Greek
+152,Harbor Grill,3.5,$,Mexican
+153,Harbor Loft Express,3.5,$$,Lebanese
+154,El House & Co.,4.4,$$,Korean
+155,Mama's Hub,4.1,$,Vegan
+156,El Hub,3.9,$$,Italian
+157,Market Tavern,4.2,$,Italian
+158,Golden Diner & Co.,4.2,$,Thai
+159,The Bistro,4.1,$$,BBQ
+160,Wild Lounge,4.2,$$,American
+161,El Works,3.3,$$,Mexican
+162,Wild Spot,4.2,$,Indian
+163,Green Spot,3.8,$,French
+164,Wild Works,3.4,$$$,Chinese
+165,El Club,4.2,$$,Mexican
+166,Lucky Station,4.6,$,Italian
+167,Casa Palace,4.8,$$$,American
+168,Market Spot,3.7,$$$,Indian
+169,Market Eatery,4.0,$,Thai
+170,La Club,3.9,$,Italian
+171,Oak Garden,5.0,$,Thai
+172,Urban Hub,4.3,$,Indian
+173,Spicy Kitchen,3.6,$$$,Thai
+174,Sweet Bakery Kitchenette,3.8,$,Turkish
+175,Wild Bar,3.7,$$,Italian
+176,La Table,4.1,$$,American
+177,Grand Spot Works,3.5,$$,Vietnamese
+178,The Bakery Works,3.8,$$$,Turkish
+179,Royal Spot,4.8,$,Thai
+180,The Works,4.3,$$,Greek
+181,Green House,5.0,$$,Fusion
+182,Stone Grill,3.7,$,Korean
+183,Stone Cantina,3.7,$$,Vietnamese
+184,Copper Table & Co.,3.5,$$,Mexican
+185,Bistro Lounge,4.1,$$,Japanese
+186,Harbor Table,4.7,$$,Vegan
+187,Happy Diner Express,4.5,$$,BBQ
+188,La Palace,3.5,$$,Mexican
+189,Grand Grill Works,4.0,$$,Turkish
+190,Lucky Lounge,3.8,$$,Vietnamese
+191,La Room,4.0,$$$,Mediterranean
+192,Lucky Porch Works,4.0,$$,Vietnamese
+193,Urban Corner,3.7,$$,French
+194,Green Bar,3.3,$,Greek
+195,Savory Cafe,4.2,$$$,Fusion
+196,Green Table,5.0,$$,Lebanese
+197,Golden Table,3.9,$$$,French
+198,Red Palace,3.9,$$,BBQ
+199,Urban Bistro & Co.,3.7,$$$,Fusion
+200,Happy Eatery,4.4,$$$$,Lebanese
+201,Iron Tavern,3.1,$$,BBQ
+202,El Station,4.0,$$,Indian
+203,La Cantina Works,3.7,$$,Vegan
+204,Happy Hub,4.1,$$$,Turkish
+205,Iron Bakery Express,5.0,$$,Spanish
+206,Blue Bistro,4.2,$,Vegan
+207,Green Spot & Co.,4.0,$$$,Vegan
+208,Sweet Cantina,3.8,$$,Japanese
+209,Iron Bakery,5.0,$,Indian
+210,Urban Spot,4.5,$$$,BBQ
+211,Red Lounge Kitchenette,3.3,$$,Spanish
+212,El Cantina,4.7,$,Vegan
+213,Harbor Spot,3.8,$$$,Turkish
+214,Casa Kitchen,3.7,$,Greek
+215,Grand Garden & Co.,4.6,$,Turkish
+216,Blue Porch,4.9,$$,BBQ
+217,Iron Hub,3.2,$$,American
+218,Harbor Kitchen Delight,3.3,$$,Thai
+219,South Porch,4.4,$$,Mexican
+220,Sweet Cafe,3.9,$$,Vegan
+221,Cafe Table,4.3,$$,Mexican
+222,Cafe Table Kitchenette,3.5,$$,Mediterranean
+223,Green Corner,4.0,$,Turkish
+224,Mama's Room,3.4,$,BBQ
+225,Stone Corner,4.0,$$,French
+226,Sweet Eatery,3.0,$$$,American
+227,Cafe Bakery,3.8,$$$$,Korean
+228,Stone Station,3.8,$,Fusion
+229,The Works & Co.,4.1,$$,Mexican
+230,North Kitchen Kitchenette,3.4,$,French
+231,Bistro Station,4.2,$,Italian
+232,Stone Room,3.3,$,Chinese
+233,Oak Works Kitchenette,3.5,$,Chinese
+234,Mama's Diner,4.1,$$,Chinese
+235,Market Tavern & Co.,4.0,$$,Brazilian
+236,Red Porch Works,4.2,$$,Chinese
+237,North Bakery,5.0,$$,Brazilian
+238,Red Table,4.5,$$,Vegan
+239,Grand Corner,4.1,$$$,Korean
+240,Happy Kitchen,3.9,$$,Chinese
+241,Iron Garden,5.0,$$,Brazilian
+242,Happy Bar,4.9,$$,Chinese
+243,Happy Cantina,4.7,$,Korean
+244,South Grill,3.1,$$,Spanish
+245,Grand Hub,4.3,$$,Vegan
+246,Cafe Loft,3.7,$,Fusion
+247,Royal Tavern,3.3,$$,Italian
+248,Blue Hub,3.8,$$$,French
+249,Mama's Eatery,4.4,$,Japanese
+250,The Palace,3.8,$,French
+251,Grand Tavern,3.7,$$,Brazilian
+252,Copper Cantina,3.8,$,Korean
+253,North Cantina,4.3,$$$,Seafood
+254,Urban Kitchen,3.5,$$,Lebanese
+255,South Cafe,3.3,$,Vietnamese
+256,Royal Palace,4.4,$,Italian
+257,Wild Bakery,3.9,$$,Korean
+258,Royal Diner,3.8,$$,Mediterranean
+259,Wild Table,4.1,$$$,Japanese
+260,North Eatery,3.9,$$,Mexican
+261,Spicy Works Kitchenette,3.9,$,Turkish
+262,Blue House,3.8,$,Korean
+263,Sweet Tavern,3.9,$$,BBQ
+264,Fusion Hub,3.6,$,Japanese
+265,Silver House,3.4,$$,Indian
+266,Lucky Loft,3.8,$$$,Seafood
+267,North Palace,3.2,$$,Japanese
+268,Harbor Spot Delight,4.3,$,Mexican
+269,Iron Station,4.1,$$,Vietnamese
+270,Casa Loft,3.5,$$,BBQ
+271,Mama's Bistro,3.8,$,Lebanese
+272,The Hub,3.5,$$,BBQ
+273,Urban Eatery,3.6,$$,Vegan
+274,Stone Table,4.8,$$,Turkish
+275,South Corner,4.4,$$,Brazilian
+276,Royal Loft,3.9,$,Japanese
+277,La Cantina,4.4,$$,Fusion
+278,Harbor Diner,4.2,$$,French
+279,Spicy Hub,3.3,$$,Thai
+280,Copper Station,4.5,$$,Turkish
+281,Royal Garden & Co.,4.6,$,Italian
+282,Casa Bakery,4.0,$$$,Mexican
+283,Wild Station,4.0,$,Fusion
+284,Silver Kitchen,2.9,$,Italian
+285,Royal Works,3.9,$,Fusion
+286,Grand Grill,3.8,$$,Chinese
+287,Market Diner,4.5,$$,American
+288,Copper Spot,4.3,$,Fusion
+289,Savory Garden,4.0,$$,American
+290,Urban Palace,4.6,$$$,Korean
+291,Oak Table,3.3,$,French
+292,Mama's Bar Kitchenette,3.3,$,Seafood
+293,Copper Loft Delight,4.0,$$,Brazilian
+294,La Loft,4.4,$$$,Turkish
+295,Grand Club,3.8,$$$$,Fusion
+296,Bistro Table,4.4,$$$$,Turkish
+297,Red Cafe & Co.,4.0,$,Greek
+298,Stone Club,3.6,$,Thai
+299,Urban Hub Delight,3.8,$,Indian
+300,Mama's Station Kitchenette,3.8,$$,Mediterranean
+301,Golden Diner Express,4.3,$,Thai
+302,Sweet Bar,4.7,$,Spanish
+303,The Bar Delight,3.9,$$,Indian
+304,Red Bakery,3.7,$$,French
+305,Golden House & Co.,3.3,$,Japanese
+306,Sweet Hub,4.9,$$,Seafood
+307,Savory Station,3.7,$$,Seafood
+308,Oak Station,3.3,$$$,Mediterranean
+309,Happy Tavern,2.9,$$,Mexican
+310,Happy Cafe,4.4,$,Korean
+311,Mama's Porch,4.2,$,Vegan
+312,Grand Bakery,4.4,$,Brazilian
+313,Grand Tavern Express,3.4,$$,BBQ
+314,South Diner,3.0,$$,French
+315,South Bakery,4.6,$,Japanese
+316,Copper Grill,3.3,$$$,Vegan
+317,El Bar Works,3.8,$,Vietnamese
+318,Iron Diner & Co.,3.9,$$,Turkish
+319,La Porch,4.2,$$,Chinese
+320,Royal Station,4.8,$,Seafood
+321,Cafe Cafe,4.5,$$,Japanese
+322,Copper Corner,3.7,$,Chinese
+323,Golden Bar,4.0,$,Korean
+324,Harbor Tavern,4.2,$$,Korean
+325,Iron Palace Express,3.9,$,French
+326,South Garden,4.2,$$,Turkish
+327,Blue Loft,4.7,$,American
+328,El Bistro,4.4,$$,Vietnamese
+329,Oak Spot,4.7,$$,Brazilian
+330,North Corner,3.5,$$,Lebanese
+331,Casa Porch,3.8,$,Korean
+332,Bistro Eatery,3.8,$$$,Seafood
+333,North Porch,3.5,$$$,French
+334,La Eatery,4.1,$$,French
+335,Stone Cafe Works,3.9,$,Brazilian
+336,The Spot,4.2,$,Korean
+337,Harbor Bar,3.8,$$,Seafood
+338,Silver Cafe Delight,3.0,$$,American
+339,Silver Spot,3.4,$,Greek
+340,Market Station,4.4,$$,American
+341,Grand Loft,3.6,$$$,BBQ
+342,La Tavern,3.8,$$$,Fusion
+343,Spicy Tavern,3.3,$$$,Mexican
+344,Wild House,4.3,$$,Lebanese
+345,Iron Porch,3.7,$,Thai
+346,Green Garden,4.3,$$$,Italian
+347,Oak House Kitchenette,3.4,$$,Seafood
+348,The Bakery,3.0,$$,Lebanese
+349,La Diner,3.2,$$,Spanish
+350,South House Express,3.8,$$,Thai
+351,Lucky Spot,4.1,$$,Italian
+352,Green Grill,4.4,$$,French
+353,Urban Table,4.3,$,Lebanese
+354,Grand Table,3.8,$,Mediterranean
+355,Savory Corner,4.2,$$,Vegan
+356,La Cafe,4.1,$$$,Chinese
+357,Stone Bistro,4.1,$,American
+358,Casa Hub & Co.,3.4,$,BBQ
+359,Copper Hub,3.5,$$,BBQ
+360,El House,4.0,$,Vegan
+361,Blue Garden,4.2,$$,Korean
+362,Market Room Express,3.8,$$,Turkish
+363,Casa Hub,3.6,$$,Italian
+364,Urban Grill Delight,2.7,$$,French
+365,Royal Club,3.9,$$,Indian
+366,The Corner Delight,3.6,$$$$,BBQ
+367,Urban Bakery,4.3,$,Seafood
+368,Iron Bistro,4.3,$$,Vietnamese
+369,Sweet Corner,4.4,$$,Vietnamese
+370,Lucky Cantina,4.0,$,Fusion
+371,Red Bistro Express,4.3,$,French
+372,Urban Bistro,4.2,$$,Indian
+373,Bistro Cafe,3.7,$,Mediterranean
+374,Harbor Porch,3.8,$$,French
+375,Royal Corner,4.3,$,Fusion
+376,Copper Diner,3.9,$$$,Indian
+377,Green Table Works,3.9,$$$,Thai
+378,Urban Cafe,3.7,$,Brazilian
+379,Casa Bakery Delight,3.9,$,Japanese
+380,Casa Diner Kitchenette,4.2,$$,Spanish
+381,La Lounge,5.0,$$,Korean
+382,The Club,4.4,$$$,BBQ
+383,Market Loft,3.5,$$,Lebanese
+384,Green Bistro,3.9,$$,French
+385,Silver Eatery,4.4,$$,Lebanese
+386,Royal Hub,4.0,$$$$,Chinese
+387,El Grill,3.6,$$,Seafood
+388,Happy Hub Express,4.4,$$,Fusion
+389,Bistro Spot,3.6,$$,Greek
+390,Cafe Corner Delight,4.6,$$$,Brazilian
+391,Market House,3.7,$$,Seafood
+392,Spicy Station,3.6,$$$,Korean
+393,Spicy Hub Delight,5.0,$,Fusion
+394,Bistro Eatery Kitchenette,3.3,$$,Italian
+395,Spicy Diner Works,3.5,$,Thai
+396,Cafe Kitchen,3.9,$,Indian
+397,Harbor Works,3.9,$$$,Lebanese
+398,Market Palace,3.7,$$,Vietnamese
+399,Happy Diner Works,4.1,$,Seafood
+400,Red Grill,4.3,$,Thai
+401,Silver Bar,4.4,$$,Mexican
+402,Oak Bar,3.9,$$,American
+403,Happy Palace & Co.,4.5,$$,Lebanese
+404,Royal House,4.6,$,Seafood
+405,Casa Club,5.0,$$,Italian
+406,Savory Bar,4.6,$,Seafood
+407,Savory Eatery,4.3,$,BBQ
+408,Bistro Kitchen,4.7,$$,Vietnamese
+409,Market Cafe,3.8,$,Mediterranean
+410,Blue Corner,4.1,$,Spanish
+411,Savory Spot,3.9,$$,Indian
+412,Blue Diner,5.0,$$,Brazilian
+413,Iron Grill,5.0,$,American
+414,Fusion Bakery,4.4,$$$,Lebanese
+415,Urban Spot Works,4.5,$,Thai
+416,Bistro Grill,3.7,$$,French
+417,North Hub Works,3.7,$,Indian
+418,Lucky Bistro & Co.,4.4,$,Italian
+419,Sweet Kitchen,4.1,$$$,Brazilian
+420,South Cantina,3.3,$$,Greek
+421,La Spot,3.3,$$,Chinese
+422,Stone Bistro & Co.,4.7,$$,Chinese
+423,Bistro Room,3.3,$$,French
+424,Market Lounge,3.8,$,Spanish
+425,Royal Cantina Works,3.6,$$$,Lebanese
+426,Silver Club,4.0,$,Lebanese
+427,Casa Spot,3.4,$$$,Vietnamese
+428,Savory Lounge,3.9,$$$,Brazilian
+429,Wild Cantina Kitchenette,4.5,$$,Thai
+430,Sweet Porch,4.0,$,Japanese
+431,Copper Eatery Delight,3.9,$$$$,Spanish
+432,The Tavern,3.7,$,Indian
+433,Wild Porch Works,4.7,$$,Mexican
+434,Harbor Corner,3.2,$$,American
+435,Iron Station Works,4.1,$$,Mexican
+436,Iron Corner,2.8,$,Spanish
+437,Happy Grill,4.4,$$,Thai
+438,Stone Lounge Delight,3.7,$$,Fusion
+439,La House,3.8,$,Spanish
+440,Cafe Spot & Co.,5.0,$$,Lebanese
+441,La Garden,4.3,$,Lebanese
+442,Happy Diner,4.1,$,Fusion
+443,Market Kitchen,3.7,$,Korean
+444,Harbor Hub Delight,4.4,$$$,Chinese
+445,Mama's Tavern Kitchenette,4.4,$$,Mexican
+446,South Tavern,4.1,$,Mediterranean
+447,Spicy Kitchen & Co.,4.4,$$,Thai
+448,Golden Bakery,4.1,$,Mediterranean
+449,Lucky Bistro,4.2,$,BBQ
+450,Spicy Hub Works,3.3,$$$,Vietnamese
+451,North House,3.8,$,Greek
+452,South Hub,4.3,$$$,Fusion
+453,Green Hub,4.6,$$,French
+454,Harbor Diner Kitchenette,3.6,$$$,Thai
+455,Red Eatery Works,4.4,$,Mediterranean
+456,Sweet Room,4.1,$$,Mediterranean
+457,Iron Palace,4.4,$$,Thai
+458,Spicy Spot,4.6,$$,Turkish
+459,Sweet Grill Works,4.2,$$,Korean
+460,Spicy Cantina,4.4,$$$,Brazilian
+461,Savory Tavern,4.4,$$,Turkish
+462,Sweet Spot,4.0,$,Vegan
+463,Spicy Bar,4.3,$$,Spanish
+464,Cafe Lounge,4.2,$,Japanese
+465,El Room,3.8,$$,Brazilian
+466,The Bar,4.0,$$,BBQ
+467,Stone Kitchen Works,3.8,$$$,French
+468,Grand Porch Works,3.9,$,Seafood
+469,Harbor Room,5.0,$$,Thai
+470,Sweet Tavern Express,4.3,$$,Mediterranean
+471,Cafe Tavern Express,4.8,$$,Vegan
+472,Fusion Cafe,3.7,$,American
+473,Stone Hub,3.7,$$$,Fusion
+474,North Hub,4.4,$$,Brazilian
+475,Oak Palace,3.4,$$,Indian
+476,Bistro Bistro,3.1,$$$,Mexican
+477,Spicy Room,3.7,$$,Turkish
+478,Cafe Porch,4.0,$,Indian
+479,Stone Palace Kitchenette,4.3,$$,Brazilian
+480,North Club,4.5,$,Italian
+481,Oak Porch,3.7,$$,Vegan
+482,Silver House Express,3.8,$$,Vietnamese
+483,Happy Table Delight,4.2,$$,Indian
+484,Silver Kitchen Delight,2.6,$,Japanese
+485,Wild Palace,4.0,$$,Mediterranean
+486,Iron Lounge,4.1,$,Thai
+487,Mama's Cafe Kitchenette,4.4,$$,Seafood
+488,Royal Station & Co.,3.7,$$$$,American
+489,Blue Cafe,3.6,$,Mediterranean
+490,Red House Delight,3.4,$$,Spanish
+491,Market Bakery,3.6,$,Korean
+492,Oak Diner,3.6,$,Lebanese
+493,Wild Cantina,4.3,$,Japanese
+494,Sweet Station,3.8,$,French
+495,Fusion Kitchen,3.1,$$,Italian
+496,Happy Bakery,4.1,$$,Thai
+497,Blue Bar,3.9,$,Spanish
+498,South Grill Kitchenette,3.4,$,Mediterranean
+499,Stone Bar,3.9,$$$,Greek
+500,Lucky Table,4.4,$,Italian
+501,Grand Cantina,3.9,$,BBQ
+502,Spicy House Express,2.8,$$,Vegan
+503,South Room Express,4.1,$$,French
+504,Savory Room,3.4,$$,BBQ
+505,Casa Garden,4.5,$$,Mediterranean
+506,The Cantina,3.7,$$$,Mexican
+507,Blue Diner Works,4.8,$,Japanese
+508,Grand Lounge,3.3,$$,Greek
+509,North Room Kitchenette,3.3,$,Korean
+510,The Lounge Express,4.1,$$,Indian
+511,Red Works Works,4.6,$,BBQ
+512,Cafe Club,3.6,$$,Mexican
+513,La Station,5.0,$$,Vegan
+514,Harbor Kitchen,4.1,$$,American
+515,South Eatery Express,4.3,$$$,French
+516,Harbor Cantina,3.8,$,Chinese
+517,Savory Porch Delight,4.3,$,Mexican
+518,Casa Loft Works,4.9,$$,Japanese
+519,Golden Tavern,4.4,$,Vegan
+520,Fusion Garden,3.6,$$,Vegan
+521,Happy Palace,4.9,$$$$,Seafood
+522,Lucky Tavern,3.8,$,Mexican
+523,Cafe Club Kitchenette,3.7,$$,Vegan
+524,Harbor Garden & Co.,4.6,$$,BBQ
+525,The Diner,4.0,$$$,French
+526,Oak House,3.5,$$,Korean
+527,Cafe Garden,5.0,$,Mediterranean
+528,Red Eatery,2.8,$,Turkish
+529,South Diner Delight,4.8,$,Mediterranean
+530,South Eatery & Co.,4.4,$$,Seafood
+531,Royal Bar,3.9,$$,Thai
+532,Fusion Station,4.6,$$,French
+533,Blue Grill,3.1,$,Vietnamese
+534,The Grill Works,3.2,$$,BBQ
+535,Spicy House & Co.,4.0,$,BBQ
+536,Grand House,3.8,$,Italian
+537,Happy Room Kitchenette,3.5,$,Seafood
+538,Blue Kitchen,4.3,$$$,Spanish
+539,Urban Works,3.4,$$$,Lebanese
+540,Grand Works Delight,3.9,$,Korean
+541,Grand Diner,4.5,$$,Brazilian
+542,Wild Loft,3.8,$$$,Turkish
+543,Mama's Diner Express,4.1,$$,Italian
+544,Spicy Room & Co.,4.2,$$,BBQ
+545,Lucky Kitchen,4.7,$,Mexican
+546,Sweet Works,3.7,$,Mexican
+547,Fusion Club,4.3,$,Italian
+548,Golden Hub Kitchenette,4.3,$,Mexican
+549,Grand Palace,4.4,$$$,Chinese
+550,Golden Tavern Kitchenette,3.6,$$,Vegan
+551,El Bakery,4.1,$$,Thai
+552,North Loft,4.4,$,Fusion
+553,Casa Works,3.5,$,Vietnamese
+554,Royal Lounge,4.6,$$$,Spanish
+555,Stone Eatery,4.4,$$$,Japanese
+556,Casa Cantina,4.1,$$$,Italian
+557,Casa House & Co.,3.3,$$$,Turkish
+558,Bistro Garden,3.5,$,Turkish
+559,Grand Room,4.2,$$,Japanese
+560,Savory Works,3.6,$$$,Mediterranean
+561,Red Lounge,3.4,$$$,Brazilian
+562,Iron Diner,3.4,$,American
+563,Royal Cantina,3.8,$$$,Lebanese
+564,Sweet Loft Works,4.2,$$,Thai
+565,Bistro Cantina,4.4,$$$,Thai
+566,Fusion Spot,4.3,$,Indian
+567,Oak Cantina,4.2,$,Mediterranean
+568,South Cafe Express,3.3,$,Brazilian
+569,Fusion Tavern,3.4,$$,Spanish
+570,Urban Works Kitchenette,3.4,$$$,Italian
+571,Happy Table,4.1,$$,Indian
+572,Blue Club & Co.,4.4,$,Korean
+573,Mama's Palace Kitchenette,3.4,$$$,Mediterranean
+574,South Bistro,4.0,$$$,French
+575,Wild Garden Express,3.7,$$$,Italian
+576,Urban Club,3.6,$$,Mediterranean
+577,Golden Hub,4.4,$$,Brazilian
+578,Market Cafe Works,4.2,$$,Brazilian
+579,Silver Garden,4.1,$$,Indian
+580,Harbor House,4.3,$$,Mexican
+581,Golden Cantina,3.4,$,Mexican
+582,Red Bistro,4.0,$$,Turkish
+583,Cafe Eatery,2.8,$$,Lebanese
+584,Oak Grill,4.4,$$,Thai
+585,Iron Loft,3.8,$$,Vietnamese
+586,Golden Club,4.4,$$,Chinese
+587,Urban Garden,3.4,$$,Spanish
+588,Oak Station & Co.,4.0,$$,Italian
+589,Bistro Bakery Works,4.6,$,Mediterranean
+590,Iron Kitchen Works,4.0,$,Spanish
+591,Happy Spot,3.5,$,Turkish
+592,Iron House,4.3,$$,Turkish
+593,Royal Corner Express,3.6,$,Mediterranean
+594,Cafe Diner,3.9,$,French
+595,Red Bar & Co.,3.7,$$,Chinese
+596,Savory Room Kitchenette,3.6,$$,Mexican
+597,Bistro Bakery,3.7,$,Italian
+598,Grand Porch,3.2,$$,Vietnamese
+599,Sweet Club,4.3,$,Brazilian
+600,Cafe Palace,4.1,$,French
+601,El Bar & Co.,3.7,$,Greek
+602,Happy Station,3.5,$$$,Vegan
+603,Cafe Station,3.5,$,Spanish
+604,Green Cantina Express,2.5,$,Vietnamese
+605,Bistro Palace,4.6,$$$,Fusion
+606,Sweet Diner,3.9,$$,Korean
+607,Happy Bakery & Co.,4.7,$,BBQ
+608,Urban Cantina,3.9,$,Seafood
+609,Mama's Loft Works,3.5,$$,Seafood
+610,Copper Garden,4.5,$$,Fusion
+611,Mama's Cantina,4.7,$,Vietnamese
+612,Iron Kitchen,3.6,$$,French
+613,Oak Palace Kitchenette,4.1,$$,Greek
+614,Wild Bistro,3.7,$$$,American
+615,Spicy Bakery & Co.,4.0,$,Seafood
+616,Red Room,4.3,$$$,Fusion
+617,Stone Eatery Works,4.0,$$$,Seafood
+618,Green Cantina,3.9,$$,Japanese
+619,Green Cafe,3.8,$$,Fusion
+620,Market Room,4.4,$,Greek
+621,Iron Cafe,4.0,$$$,Japanese
+622,Stone House,4.4,$$,American
+623,Fusion Bar,3.9,$$,Greek
+624,Sweet Loft,3.6,$,Vegan
+625,The Diner Works,3.9,$$,Turkish
+626,Green Loft,4.3,$$$$,Brazilian
+627,South Porch Kitchenette,4.0,$,Italian
+628,Iron Cantina,4.3,$,Korean
+629,Spicy Works,4.3,$,Brazilian
+630,El Corner,3.8,$,Chinese
+631,Spicy Lounge,4.1,$$,French
+632,La Cafe Delight,4.1,$$,Lebanese
+633,Market Grill,3.4,$$,Greek
+634,Silver Works,4.8,$$$,French
+635,Happy Station Kitchenette,3.4,$$,BBQ
+636,Mama's Kitchen,4.4,$$,French
+637,The Porch,3.6,$$,Mexican
+638,Lucky House Delight,4.8,$,Vegan
+639,Golden Bakery & Co.,3.9,$,Italian
+640,Harbor Lounge,3.8,$,Greek
+641,Sweet Bakery,3.8,$$,Chinese
+642,Wild Bakery Works,4.2,$,Japanese
+643,Happy Club,3.8,$,French
+644,La Kitchen Express,3.7,$$$,Thai
+645,Green Porch Kitchenette,4.3,$,BBQ
+646,Savory Palace Kitchenette,4.0,$,Spanish
+647,Fusion Diner Works,4.2,$,Vegan
+648,Bistro Porch Express,4.1,$$,Brazilian
+649,Happy Loft,4.2,$$,Mediterranean
+650,Royal Porch,3.0,$$$,Italian
+651,Copper Kitchen,3.8,$,Vegan
+652,Sweet Garden,3.7,$$$$,French
+653,El Loft & Co.,4.6,$$$,BBQ
+654,Cafe Kitchen Delight,3.6,$,Brazilian
+655,The Cantina Delight,4.6,$$$,Mexican
+656,Copper Eatery,3.9,$$,Brazilian
+657,El Bar,3.6,$$$,Korean
+658,North Tavern,4.0,$$,Greek
+659,Casa Bar Express,4.3,$,Vietnamese
+660,Fusion Porch,4.2,$$,Chinese
+661,Mama's Bar,2.8,$$$,Japanese
+662,Oak Hub Kitchenette,4.0,$,Chinese
+663,Cafe Bakery Works,2.8,$$$$,American
+664,Casa Bar,3.8,$$$,Chinese
+665,Royal Bakery,4.0,$$$,Turkish
+666,Spicy Cafe,3.2,$$$,French
+667,Savory Bistro,3.9,$,French
+668,Savory Table Express,4.2,$,Thai
+669,South Works & Co.,3.2,$,Lebanese
+670,Mama's Club,3.8,$,Japanese
+671,Fusion House,4.1,$$,Seafood
+672,Golden Kitchen & Co.,4.7,$,Turkish
+673,Silver Tavern Kitchenette,3.8,$,Spanish
+674,North Diner Express,3.7,$$,Mediterranean
+675,Urban Loft Kitchenette,3.5,$,Vegan
+676,North Spot,4.2,$$,Indian
+677,Blue Cafe Delight,4.7,$$,Japanese
+678,Golden Lounge,3.7,$,French
+679,Iron Room,4.4,$$$,Seafood
+680,Urban Palace Kitchenette,4.2,$$$,Spanish
+681,Urban Loft Works,4.4,$$,American
+682,Royal Room,3.5,$,Chinese
+683,Grand Station,4.1,$,Italian
+684,The Eatery,4.1,$,Japanese
+685,Red Bar Express,4.1,$$,Indian
+686,Green Porch Delight,4.3,$$,Greek
+687,Spicy House,3.6,$$$,American
+688,Fusion Table,4.0,$$$,Mediterranean
+689,The Room & Co.,4.2,$$,Brazilian
+690,El Porch,3.2,$$,Greek
+691,Urban Porch & Co.,4.3,$$$,Indian
+692,Fusion Loft,4.3,$$$,Lebanese
+693,Green Lounge,3.5,$$,French
+694,Royal Eatery,4.0,$$,BBQ
+695,Spicy Palace,3.5,$$,Indian
+696,Market Works & Co.,3.7,$$,Seafood
+697,Red Kitchen Express,4.1,$$,Vietnamese
+698,The Kitchen,4.4,$,Seafood
+699,Iron Club,3.7,$,Spanish
+700,Red Garden,3.9,$,Chinese
+701,Spicy Loft,4.1,$$,Greek
+702,El Table,3.4,$$,Greek
+703,Iron Loft Works,4.3,$,Thai
+704,Copper House Works,3.7,$$,Seafood
+705,Cafe Hub,4.0,$$,Vegan
+706,North Hub Kitchenette,4.6,$$,Greek
+707,Stone Garden,3.7,$$,French
+708,Harbor Hub,4.6,$$,Seafood
+709,Red Loft,4.0,$,Greek
+710,Silver Palace,4.5,$$,Seafood
+711,Blue Spot,3.8,$$,Korean
+712,Lucky Room Delight,4.0,$,Indian
+713,South Palace,4.0,$$$,Chinese
+714,Market Lounge & Co.,3.8,$,Italian
+715,Wild Garden,4.6,$,American
+716,Blue Room,4.4,$$,Brazilian
+717,Blue Works,4.3,$,Turkish
+718,Red Porch,3.6,$$,Korean
+719,The Table,3.8,$$$,Seafood
+720,Blue Lounge,3.3,$,Japanese
+721,Urban Grill,3.3,$,Korean
+722,The Loft,4.6,$$$,Vietnamese
+723,Red Corner,4.0,$$,Lebanese
+724,Wild Corner,4.4,$$$,Spanish
+725,Royal Porch & Co.,3.6,$$$,Brazilian
+726,La Hub Delight,4.7,$$,BBQ
+727,Golden Cafe,4.1,$$,Greek
+728,La House Express,4.0,$$,Indian
+729,The Tavern Express,3.7,$$$,Chinese
+730,Fusion Bistro Works,4.5,$$,Lebanese
+731,Mama's Loft,4.2,$$,Italian
+732,La Bakery,4.8,$,Greek
+733,Wild Works Express,4.5,$$,Spanish
+734,Mama's Palace,3.7,$$,Italian
+735,Oak Kitchen Kitchenette,4.0,$$,Spanish
+736,Harbor Cafe,4.8,$$$,Chinese
+737,Golden Eatery,4.0,$$,Spanish
+738,La Works Delight,4.5,$$$,Japanese
+739,Iron Table,4.4,$,Korean
+740,South Eatery,4.5,$$,Mediterranean
+741,Cafe Grill,4.9,$,Italian
+742,Market Cafe Kitchenette,4.2,$$,Greek
+743,Golden Corner,3.6,$,BBQ
+744,Fusion Grill Express,4.5,$$,Seafood
+745,Wild Kitchen Delight,4.6,$$,Turkish
+746,Spicy Corner,3.8,$$$,Spanish
+747,Cafe Works,3.7,$,Mediterranean
+748,Iron Grill & Co.,4.0,$$,Brazilian
+749,Happy Porch,4.6,$,Lebanese
+750,South Bakery Works,4.7,$$,Chinese
+751,Happy Club Kitchenette,3.7,$$,Vietnamese
+752,Oak Loft,3.9,$$,Vegan
+753,Market Bar,3.8,$,Mediterranean
+754,Cafe Corner,4.4,$$$,Greek
+755,Red Palace Kitchenette,3.9,$$,Korean
+756,Grand Works,3.7,$$,French
+757,Fusion Eatery,3.6,$,Fusion
+758,Green Hub Kitchenette,3.9,$$,Fusion
+759,Market Works,4.1,$$,Mexican
+760,Casa Spot & Co.,3.3,$,Thai
+761,Red Spot,3.2,$$,Vietnamese
+762,Market Hub,5.0,$,BBQ
+763,Casa Cafe,4.2,$,American
+764,Red Cantina Works,3.7,$,Vietnamese
+765,El Diner,3.6,$$$,Greek
+766,Cafe Bistro,3.8,$$$,French
+767,Savory Club,4.1,$,Mexican
+768,Green Porch,4.2,$,Spanish
+769,Blue Station,4.4,$$$,Fusion
+770,Wild Eatery,4.5,$,BBQ
+771,Green Works,3.1,$$$,Seafood
+772,Casa Tavern,4.1,$,Indian
+773,Wild Diner Kitchenette,4.7,$$$,Brazilian
+774,Golden Tavern Delight,4.1,$$,Indian
+775,Fusion Eatery Works,4.0,$$,Mediterranean
+776,Golden Corner Works,4.4,$$,Spanish
+777,North Kitchen,3.9,$,Italian
+778,Copper Eatery Express,3.4,$$,Mediterranean
+779,Savory Cantina,2.8,$$,Vietnamese
+780,Copper Club & Co.,4.3,$$,Lebanese
+781,Lucky Palace Express,3.6,$$$,Lebanese
+782,Stone Cafe,3.9,$$,Turkish
+783,Silver Cantina,3.7,$,Vegan
+784,Grand Works Works,4.2,$$$,French
+785,Royal Bistro Express,3.0,$$,French
+786,El Palace,4.4,$$,Mediterranean
+787,El Tavern Kitchenette,3.2,$$,Greek
+788,Blue Cantina,4.5,$$$,Vegan
+789,Sweet Diner & Co.,3.5,$,Mexican
+790,Mama's Works Works,3.6,$$,Mexican
+791,Copper Loft,3.8,$$,Italian
+792,El Kitchen Works,3.7,$$,Mexican
+793,Savory Loft,4.4,$$,Spanish
+794,Silver Palace & Co.,3.9,$$,BBQ
+795,Mama's House Delight,5.0,$$,Seafood
+796,Spicy Garden,4.5,$$$,BBQ
+797,Oak Cafe Kitchenette,2.9,$$,Spanish
+798,The House,3.9,$,Spanish
+799,South Lounge Kitchenette,3.8,$$,Chinese
+800,Casa Corner Express,4.3,$$,Greek
+801,Wild Cantina Delight,5.0,$$,Greek
+802,El Tavern & Co.,3.9,$$$,Mediterranean
+803,El Eatery,4.0,$,Turkish
+804,Casa Porch Works,5.0,$$,Chinese
+805,Sweet House,3.9,$,Thai
+806,Lucky House,4.3,$,Vietnamese
+807,Happy House,3.8,$$,Seafood
+808,Royal Cafe,4.0,$,Japanese
+809,Spicy Bakery,4.8,$$,Korean
+810,Lucky Grill,4.2,$$$,Vietnamese
+811,Grand Table & Co.,3.5,$,French
+812,Silver Club Works,3.5,$$,Thai
+813,Blue Table,4.2,$$$,Spanish
+814,Casa Station,4.2,$,Spanish
+815,South Corner Kitchenette,3.7,$,French
+816,Stone Loft,4.0,$,American
+817,Harbor Eatery Delight,4.5,$,Mediterranean
+818,Lucky Bakery,4.7,$$,Lebanese
+819,Copper Porch Express,3.0,$$,Italian
+820,Harbor Club,4.4,$$$,French
+821,Stone Room Kitchenette,4.0,$,Mediterranean
+822,Copper Corner Delight,3.4,$$$,Chinese
+823,Bistro Kitchen Works,3.8,$$,Brazilian
+824,El Cantina & Co.,3.5,$,Turkish
+825,Casa Lounge,3.8,$,Fusion
+826,Sweet Bistro Kitchenette,3.6,$$,Seafood
+827,Stone Works,4.0,$,Chinese
+828,Savory Hub,4.8,$$,Japanese
+829,Mama's Lounge,4.3,$,American
+830,Savory Porch,4.0,$$$,Indian
+831,Fusion Diner Express,4.5,$$,Mediterranean
+832,Stone Spot,2.8,$$,Fusion
+833,La Works Kitchenette,4.1,$$$,Spanish
+834,Casa Grill,3.7,$,Lebanese
+835,Market Bistro & Co.,4.0,$,Italian
+836,Silver Tavern,3.7,$$,BBQ
+837,Stone Tavern,4.6,$$,Mexican
+838,El Loft,3.5,$$,Mediterranean
+839,Wild Loft Kitchenette,4.6,$$$,Mediterranean
+840,Wild House Express,3.9,$$$,Fusion
+841,Copper Lounge,4.1,$$$,Indian
+842,Cafe House,4.0,$$,Mexican
+843,Royal Diner & Co.,3.9,$$$,Seafood
+844,Casa Bistro Delight,3.2,$,Seafood
+845,La Cantina Kitchenette,3.6,$,Spanish
+846,Stone Porch,3.8,$$,Thai
+847,Golden Eatery Kitchenette,4.1,$$$,Greek
+848,South Spot,3.8,$,Indian
+849,Iron Kitchen Express,3.7,$$$,Greek
+850,Urban House,4.7,$$$,Thai
+851,South Station,3.6,$$$,Italian
+852,Happy Room,4.2,$$,Fusion
+853,Wild Tavern,3.7,$$,Spanish
+854,Happy Corner Works,3.4,$,Thai
+855,Wild Kitchen,3.7,$,Korean
+856,Blue Room & Co.,3.1,$$,Japanese
+857,Market Garden,4.0,$$,Brazilian
+858,La Bar,3.9,$,Korean
+859,North Bistro,4.1,$$,American
+860,Casa Loft Express,4.0,$,Seafood
+861,Oak Club,3.3,$,American
+862,Royal Club Works,3.8,$$,Fusion
+863,Grand Corner Delight,3.8,$,Thai
+864,Cafe Hub Delight,4.2,$,Mexican
+865,Spicy Porch,4.3,$,Turkish
+866,Red Kitchen,4.5,$$,Indian
+867,Silver Lounge,4.7,$,Spanish
+868,Wild Works & Co.,4.2,$$,BBQ
+869,Oak Works,3.9,$$,Vegan
+870,El Kitchen,3.8,$$$,Indian
+871,Silver Table Kitchenette,3.9,$,Japanese
+872,North Works Delight,3.0,$$,Fusion
+873,Happy Bakery Works,4.3,$$$,Fusion
+874,Silver Loft,3.9,$,Mediterranean
+875,Red House,3.5,$$,Japanese
+876,Lucky Palace,4.1,$$,Brazilian
+877,Oak Kitchen Express,3.6,$$$$,Vietnamese
+878,Iron Bar,3.2,$$,Thai
+879,Oak Bakery Delight,3.7,$,Vietnamese
+880,Spicy Grill,4.9,$$,Turkish
+881,El Lounge,4.2,$$,Spanish
+882,Silver Hub Delight,3.8,$$$,Indian
+883,North House & Co.,3.9,$$$,BBQ
+884,Market Corner,3.7,$$,Fusion
+885,Stone Lounge,4.0,$$,Mediterranean
+886,Copper Palace,4.4,$,Spanish
+887,South Room,4.0,$$$,Greek
+888,The Porch Works,3.7,$$,Vietnamese
+889,Happy Lounge & Co.,3.8,$,Seafood
+890,Market Cantina,3.6,$,Lebanese
+891,Green Diner,3.4,$,Fusion
+892,Green Station,4.2,$$,Indian
+893,Blue Bakery Delight,3.4,$$,Korean
+894,Happy Lounge,4.1,$,Mediterranean
+895,Golden Porch,2.6,$$,Brazilian
+896,Casa Diner,3.7,$$$$,Italian
+897,Casa Works Kitchenette,4.4,$,Seafood
+898,South Kitchen,4.1,$$,Turkish
+899,Copper Table Kitchenette,3.5,$$,Spanish
+900,Wild Diner,3.5,$,Turkish
+901,Mama's Station,4.5,$$,Fusion
+902,Blue Tavern Delight,4.0,$$,Indian
+903,Fusion Corner,4.3,$$,Korean
+904,Blue Tavern,4.1,$$,Turkish
+905,Oak Room & Co.,4.0,$$$,BBQ
+906,Golden Grill,3.7,$$$,Thai
+907,The Table Works,4.5,$,Brazilian
+908,Grand Bistro Kitchenette,3.7,$$$,Italian
+909,Bistro Tavern,4.0,$,Korean
+910,La House Delight,3.2,$$,Turkish
+911,North Station,4.7,$$,Mediterranean
+912,Cafe Cafe Delight,4.0,$,Lebanese
+913,Wild Hub,4.1,$$,Seafood
+914,El Room & Co.,3.9,$$,Vegan
+915,Harbor Loft,4.6,$,Mexican
+916,Happy Grill Kitchenette,4.3,$$,BBQ
+917,Fusion Eatery Delight,3.2,$,Fusion
+918,Iron Works,4.1,$$$,Greek
+919,La Kitchen,3.9,$$,Greek
+920,Wild Corner Works,4.3,$$$,Seafood
+921,El Spot,3.6,$$,Vegan
+922,Harbor Bistro,3.5,$,Turkish
+923,Market Cantina Kitchenette,4.2,$$,Chinese
+924,Oak Hub Works,3.6,$$,Seafood
+925,Green Tavern,3.7,$$,Korean
+926,Sweet Grill,3.7,$$,Greek
+927,Grand Spot,4.0,$$,Mexican
+928,South Lounge Delight,3.6,$$$,Turkish
+929,Urban Station,3.7,$$$,Japanese
+930,Lucky Eatery,3.4,$$,Vegan
+931,Mama's Tavern,4.0,$$,Mediterranean
+932,Wild Spot & Co.,3.1,$,Mediterranean
+933,North Spot & Co.,3.6,$$,Spanish
+934,Green Palace,3.9,$$,Seafood
+935,Savory Station & Co.,4.2,$,Brazilian
+936,Golden Hub Express,5.0,$$,Vietnamese
+937,Oak Bakery,3.7,$,BBQ
+938,Green Porch Works,3.9,$$,Chinese
+939,North Lounge,3.1,$$,Korean
+940,La Hub,4.4,$$$,Vegan
+941,Golden Club Delight,4.7,$,Indian
+942,Green Room,5.0,$$,French
+943,El Diner Delight,4.3,$$,Seafood
+944,The Room Delight,2.7,$$,Fusion
+945,Iron Spot,3.2,$$,Korean
+946,Red Bar,4.0,$$,Turkish
+947,Iron Works Delight,3.3,$$$,Seafood
+948,Casa Tavern & Co.,4.9,$,Greek
+949,Bistro Diner Works,3.6,$,Korean
+950,Golden Bistro,3.9,$$,Turkish
+951,Stone Diner,3.4,$$,Japanese
+952,Copper Bar,2.7,$,Spanish
+953,Royal Kitchen,4.5,$$$,Mexican
+954,Harbor Eatery,3.9,$$$,Mediterranean
+955,Iron Room Works,4.1,$$,Korean
+956,Happy Corner,3.7,$$,Japanese
+957,Casa Corner & Co.,4.4,$$,Turkish
+958,South Works,3.8,$$,Thai
+959,Spicy Diner & Co.,4.1,$$$,French
+960,Oak Cafe,3.6,$$,American
+961,Copper Tavern,4.0,$,Seafood
+962,El Bistro Delight,4.5,$,Indian
+963,Savory Table Delight,4.6,$,Mediterranean
+964,North Cafe,4.6,$$$,BBQ
+965,Market Bistro,3.9,$$,Chinese
