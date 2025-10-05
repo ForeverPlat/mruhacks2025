@@ -29,17 +29,18 @@ def get_recommendations(cost, cuisine):
     return reclist
 
 def get_recommendation_from_name(name):
-     for i in df_drop.index:
-         if df_drop.loc[i, "name"] in name:
-             temp = get_recommendations(df_drop.loc[i, "avg_cost"], df_drop.loc[i, "cuisine"])
-             break
-     count = 0
-     for x in temp:
-         if temp[count][0] == name:
-             temp.pop(count)
-             break
-         count += 1
-     return temp
+    temp = []
+    for i in df_drop.index:
+        if df_drop.loc[i, "name"] in name:
+            temp = get_recommendations(df_drop.loc[i, "avg_cost"], df_drop.loc[i, "cuisine"])
+            break
+    count = 0
+    for x in temp:
+        if temp[count][0] == name:
+            temp.pop(count)
+            break
+        count += 1
+    return temp
 
 # test = get_recommendations('$', ['BBQ', 'Indian'])    
 # print(test)

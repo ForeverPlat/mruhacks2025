@@ -1,4 +1,5 @@
 let recommendedRestaurants = []; // list of restaurant objects
+const backendUrl = 'http://localhost:5500';
 
 const setRecommendedRestaurants = async () => {
     try {
@@ -9,7 +10,6 @@ const setRecommendedRestaurants = async () => {
         recommendedRestaurants = result.data;
         console.log(recommendedRestaurants);
         
-
     } catch (error) {
         console.error(error)
     }
