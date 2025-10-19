@@ -1,2 +1,6 @@
 Nick's working branch.
-g
+
+to run the website:
+    http://localhost:5500/
+
+    
